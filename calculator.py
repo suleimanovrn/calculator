@@ -5,7 +5,7 @@ def get_number(prompt):
             if number.is_integer():
                 return int(number) 
         except ValueError:
-            print("Это не число! Пожалуйста, введите число.") # если пользователь ввел не число, то выводим это сообщение
+            print("Это не число! Пожалуйста, введите число.") 
 def get_operation():
     message = '''
 Выберете математическую операцию:
